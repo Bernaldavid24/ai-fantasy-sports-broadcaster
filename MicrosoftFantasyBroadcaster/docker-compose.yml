@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5672:5672"   # Main communication port
+      - "15672:15672" # Dashboard UI
+    hostname: "rabbitmq"
+    volumes:
+      - ./rabbitmq_data:/var/lib/rabbitmq
+
+  scraper:
+    build: .  # Build using the Dockerfile we just created
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      # Pass through the .env variables explicitly if needed, 
+      # or rely on the python-dotenv loading the file inside the container
+    volumes:
+      - .:/app  # Optional: Maps local folder to the container for live editing

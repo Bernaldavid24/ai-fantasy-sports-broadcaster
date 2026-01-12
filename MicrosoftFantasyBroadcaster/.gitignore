@@ -1,0 +1,21 @@
+# --- C# / .NET Ignore Rules ---
+bin/
+obj/
+.vs/
+.vscode/
+
+# Ignore local configuration files with secrets
+BroadcasterService/Properties/launchSettings.json
+appsettings.Development.json
+*.user
+
+# --- Python Ignore Rules ---
+__pycache__/
+*.pyc
+.env
+venv/
+.pytest_cache/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db

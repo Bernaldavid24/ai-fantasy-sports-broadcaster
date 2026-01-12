@@ -1,0 +1,82 @@
+{
+  "HighestTeamScore": {
+    "Value": 208.4,
+    "Holder": "YourCaffHurts",
+    "Team": "",
+    "Detail": "",
+    "Week": 16,
+    "Date": "2026-01-11"
+  },
+  "LowestTeamScore": {
+    "Value": 43.52,
+    "Holder": "Action Jackson ",
+    "Team": "",
+    "Detail": "",
+    "Week": 17,
+    "Date": "2026-01-11"
+  },
+  "HighestPlayerScore": {
+    "Value": 59.4,
+    "Holder": "Jahmyr Gibbs",
+    "Team": "Amon-RawDog",
+    "Detail": "RB",
+    "Week": 12,
+    "Date": "2026-01-11"
+  },
+  "MostPassingYards": {
+    "Value": 0,
+    "Holder": "None",
+    "Team": "",
+    "Detail": "",
+    "Week": 0,
+    "Date": ""
+  },
+  "MostPassingTDs": {
+    "Value": 0,
+    "Holder": "None",
+    "Team": "",
+    "Detail": "",
+    "Week": 0,
+    "Date": ""
+  },
+  "MostRushingYards": {
+    "Value": 0,
+    "Holder": "None",
+    "Team": "",
+    "Detail": "",
+    "Week": 0,
+    "Date": ""
+  },
+  "MostReceivingYards": {
+    "Value": 0,
+    "Holder": "None",
+    "Team": "",
+    "Detail": "",
+    "Week": 0,
+    "Date": ""
+  },
+  "MostReceptions": {
+    "Value": 0,
+    "Holder": "None",
+    "Team": "",
+    "Detail": "",
+    "Week": 0,
+    "Date": ""
+  },
+  "MostTotalTDs": {
+    "Value": 0,
+    "Holder": "None",
+    "Team": "",
+    "Detail": "",
+    "Week": 0,
+    "Date": ""
+  },
+  "MostDefensivePoints": {
+    "Value": 50.08,
+    "Holder": "Vikings D/ST",
+    "Team": "KHALIL B THE BASEDGOD",
+    "Detail": "",
+    "Week": 3,
+    "Date": "2026-01-11"
+  }
+}
