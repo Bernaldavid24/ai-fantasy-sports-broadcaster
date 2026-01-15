@@ -1,8 +1,8 @@
-# 🎙️ AI-Powered Fantasy Sports Broadcaster (Backend)
+# AI-Powered Fantasy Sports Broadcaster (Backend)
 
 A distributed system that automates the generation of "TV-style" sports commentary. This project uses a microservices architecture to scrape real-time game data, generate scripts using **GPT-4**, and synthesize multi-speaker audio using **Azure Neural TTS**.
 
-## 🏗️ Architecture
+## Architecture
 
 The system follows a producer-consumer pattern decoupled by a message queue:
 
@@ -14,7 +14,7 @@ The system follows a producer-consumer pattern decoupled by a message queue:
     * **Azure Speech Services:** Synthesizes the script into audio using distinct neural voices ("Matt" and "Jose") with specific emotional tuning.
     * **Output:** Generates broadcast-ready `.wav` files.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 * **Core Logic:** C# (.NET 8 BackgroundService)
 * **Ingestion:** Python 3.x
@@ -24,7 +24,7 @@ The system follows a producer-consumer pattern decoupled by a message queue:
     * Azure Cognitive Services (Speech SDK / Neural TTS)
 * **Logging:** Microsoft.Extensions.Logging
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 /Root
